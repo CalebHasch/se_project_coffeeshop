@@ -20,12 +20,12 @@
   z-index: auto;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .nav__logo {
@@ -71,7 +71,7 @@
 
 .header__description {
   max-width: 683px;
-  margin: 28px 0 0 80px;
+  margin: 0 0 0 80px;
   z-index: 1;
   font-family: "Noto Serif, Times New Roman, serif";
   font-size: 20px;
@@ -87,20 +87,19 @@
 }
 
 .header__footer {
-  margin: auto 0 40px 80px;
+  margin: auto 80px 40px 80px;
   display: flex;
   justify-content: space-between;
   font-weight: 500;
   color: #838383;
-  width: 100%;
-  box-sizing: border-box;
   z-index: 1;
 }
 
 .header__paragraph {
   margin: 0;
+  padding: 0;
 }
 
-.header__paragraph:last-of-type {
-  margin: auto 80px 40px 0;
+.header__paragraph_right-side {
+  margin: auto 0 0;
 }
