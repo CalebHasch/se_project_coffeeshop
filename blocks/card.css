@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+}
+
+.card__list-item {
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 8;
+}

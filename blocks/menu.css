@@ -1,0 +1,19 @@
+.menu {
+  background-color: #fff;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__title {
+  max-width: 780px;
+  margin: 100px auto 24px;
+  text-align: center;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
