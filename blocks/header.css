@@ -57,6 +57,7 @@
   margin: auto 80px 40px 80px;
   display: flex;
   justify-content: space-between;
+  align-items: end;
   font-weight: 500;
   color: #838383;
   z-index: 1;
@@ -65,8 +66,4 @@
 .header__paragraph {
   margin: 0;
   padding: 0;
-}
-
-.header__paragraph_right-side {
-  margin: auto 0 0;
 }

@@ -16,10 +16,8 @@
   display: flex;
   gap: 20px;
   list-style-type: none;
-  position: relative;
-  top: 30px;
-  right: 80px;
-  margin: 0;
+  margin: 30px 80px 0 0;
+  padding: 0;
 }
 
 .nav__link {

@@ -62,7 +62,7 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__paragraph header__paragraph_right-side">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -74,8 +74,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__video">
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=KLVER_qoqVLS0MnM"
                 title="YouTube video player"
@@ -88,8 +88,8 @@
                 <p class="recipes__video-caption">Aeropress recipe</p>
                 <p class="recipes__video-caption">~5 min</p>
               </div>
-            </div>
-            <div class="recipes__video">
+            </li>
+            <li class="recipes__video">
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=hzcR7rK0ZPyrwE-K"
                 title="YouTube video player"
@@ -101,8 +101,8 @@
                 <p class="recipes__video-caption">French press recipe</p>
                 <p class="recipes__video-caption">~3 min</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -143,7 +143,7 @@
               />
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-            <label class="form__label .form__label_type_checkbox" for="terms">
+            <label class="form__label form__label_type_checkbox" for="terms">
               <input
                 type="checkbox"
                 class="form__checkbox"
@@ -275,7 +275,11 @@
       </main>
       <footer class="footer" id="footer">
         <div class="footer__content">
-          <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" />
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso logo"
+          />
           <div class="footer__social-content">
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
@@ -284,6 +288,7 @@
                   <img
                     class="footer__social-icon"
                     src="./images/facebook_white.svg"
+                    alt="Facebook icon"
                   />
                   Facebook
                 </a>
@@ -293,6 +298,7 @@
                   <img
                     class="footer__social-icon"
                     src="./images/instagram_white.svg"
+                    alt="Instagram icon"
                   />
                   Instagram
                 </a>
@@ -300,7 +306,7 @@
             </ul>
           </div>
         </div>
-        <div class="footer__copyright">&copy; 2024 Caleb Hasch</div>
+        <p class="footer__copyright">&copy; 2024 Caleb Hasch</p>
       </footer>
     </div>
   </body>
